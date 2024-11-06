@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    border: 5;
+}
+
+td {
+    padding: 10px;
+}
+
+.divs {
+    padding: 10px;
+    width: 200px;
+}
+
+#btn_cadastrar {
+    margin: 10px;
+}
