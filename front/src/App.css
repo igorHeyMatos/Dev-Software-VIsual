@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Estilo para o menu de navegação */
+  nav {
+    background-color: #0077cc;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Estilo para o conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Estilo para os botões */
+  button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    #app {
+      width: 100%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* Estilo geral para o container de cadastro */
+#cadastrar_produto {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+#cadastrar_produto h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para as divs de campo do formulário */
+.divs {
+  margin-bottom: 15px;
+}
+
+.divs label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.divs input[type="text"],
+.divs input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.divs input[type="text"]:focus,
+.divs input[type="number"]:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+/* Estilo para o botão de cadastro */
+#btn_cadastrar {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btn_cadastrar:hover {
+  background-color: #005fa3;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  #cadastrar_produto {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+div {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+div h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+/* Bordas e sombreamento */
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+tr:hover td {
+  background-color: #e0f7ff;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  div {
+    width: 90%;
+    padding: 15px;
+  }
+
+  th,
+  td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

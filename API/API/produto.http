@@ -15,7 +15,8 @@ Content-Type: application/json
     "nome" : "Notebook",
     "preco" : 5000,
     "quantidade" : 200,
-    "descricao" : "Eletrônico"
+    "descricao" : "Eletrônico",
+    "categoriaId" : 1
 }
 
 ### Deletar produto

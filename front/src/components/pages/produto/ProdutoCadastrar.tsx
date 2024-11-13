@@ -62,6 +62,17 @@ function ProdutoCadastrar(){
                     <label htmlFor="quantidade">Quantidade:</label>
                     <input type="number" id="quantidade" name="quantidade" onChange={(e : any) => setQuantidade(e.target.value)}  />
                 </div>
+
+                <div>
+                    <label htmlFor="categoria">Categorias</label>
+                    <select onChange={(e : any) => console.log(e.target.value)}>
+                        <option value="1">Tecnologia</option>
+                        <option value="2">Roupas</option>
+                        <option value="3">Acessorios</option>
+                    </select>
+                </div>
+                
+
                 <button type="submit" id="btn_cadastrar">Cadastrar</button>
             </form>
         </div>
